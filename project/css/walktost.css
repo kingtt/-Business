@@ -1,0 +1,158 @@
+@import url(walktost-pc.css) screen and (max-width: 1500px);
+@import url(walktost-mobile.css) screen and (max-width: 640px);
+@charset 'utf-8';
+.section1 {
+  position: relative;
+  height: 410px;
+}
+.section1 img {
+  max-width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  margin-left: -50%;
+}
+.section2 {
+  padding: 50px 0;
+}
+.section2 li {
+  position: relative;
+}
+.section2 li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.section2 li .img {
+  width: 100%;
+}
+.section2 li .img img {
+  max-width: 100%;
+}
+.section2 li .txt {
+  z-index: 5;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 52.5%;
+  padding: 32% 13% 16%;
+  width: 74%;
+}
+.section2 li .txt h3 {
+  position: absolute;
+  left: 12%;
+  top: 8%;
+  padding-bottom: 20px;
+  font-size: 24px;
+  color: #fff;
+  font-weight: bold;
+}
+.section2 li .txt h3:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 50%;
+  height: 1px;
+  background-color: #ff9900;
+}
+.section2 li .txt p {
+  opacity: 0;
+  color: #fff;
+}
+.section3 {
+  background-image: url(../images/kzbg.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+.section3 a {
+  width: 100%;
+  height: 100%;
+}
+.section4 {
+  padding-bottom: 50px;
+}
+.section4 .history {
+  padding-top: 175px;
+}
+.section4 .history .his_mian {
+  position: relative;
+}
+.section4 .history .his_mian .tabs {
+  padding-top: 25px;
+  margin-bottom: 60px;
+}
+.section4 .history .his_mian .tabs .himg {
+  position: relative;
+}
+.section4 .history .his_mian .tabs .himg span {
+  display: block;
+  position: absolute;
+  top: -144px;
+  left: 50px;
+}
+.section4 .history .his_mian .tabs .hmsg .year {
+  padding-left: 25px;
+  font-size: 94px;
+  color: #e6e6e6;
+  font-weight: bold;
+}
+.section4 .history .his_mian .tabs .hmsg .hinfo {
+  padding-left: 25px;
+  transition: all 0.3s ease;
+}
+.section4 .history .his_mian .tabs .hmsg .hinfo:hover {
+  color: #ff9900;
+}
+.section4 .history .his_mian .tab_chose {
+  position: relative;
+}
+.section4 .history .his_mian .tab_chose a {
+  display: inline-block;
+  width: 28px;
+  height: 55px;
+  background-image: url(../images/about_his_btn.png);
+  position: absolute;
+  top: auto;
+  bottom: 23px;
+  transition: all 0s ease;
+}
+.section4 .history .his_mian .tab_chose .z {
+  left: 0;
+}
+.section4 .history .his_mian .tab_chose .z:hover {
+  background-position: 0 bottom;
+}
+.section4 .history .his_mian .tab_chose .y {
+  background-position: right 0;
+  right: 0;
+}
+.section4 .history .his_mian .tab_chose .y:hover {
+  background-position: right bottom;
+}
+.section4 .history .his_mian .tab_chose .uldiv {
+  margin: 0 auto;
+  margin-bottom: 50px;
+  width: 85%;
+  height: 81px;
+  background-image: url(../images/about_his_line.png);
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+.section4 .history .his_mian .tab_chose .uldiv ul {
+  position: relative;
+  height: 100%;
+}
+.section4 .history .his_mian .tab_chose .uldiv ul li {
+  float: left;
+}
+.section4 .history .his_mian .tab_chose .uldiv ul li b {
+  display: block;
+  width: 20px;
+  height: 20px;
+  margin: 0 auto;
+  background-image: url(../images/ab_his_dian.png);
+  background-repeat: no-repeat;
+}
